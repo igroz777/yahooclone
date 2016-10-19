@@ -7,7 +7,7 @@ body{
 .page-wrapper{
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	
 
 }
 
@@ -74,7 +74,7 @@ body{
 .middle-right{
 	margin-right: 20px;
 	width: 360px;
-	border-top: 1px solid rgba(0,0,0,0.3);
+	border-top: 4px solid #188fff;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
 }
 
@@ -132,5 +132,120 @@ body{
 }
 
 .form-next-button{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.form-next-button button{
+	width: 100%;
+	color: white;
+	background-color: #188fff;
+	border: none;
+	height: 40px;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.form-next-button button:hover{
+	background: #4ca9ff;
+}
+
+
+
+.form-staysigned-trouble{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+.form-staysigned{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+
+}
+
+.form-staysigned input{
+	color: #cfd2d5;
+	margin-left: 0px; 
+}
+
+.form-staysigned div{
+	color: #188fff;
+}
+
+.form-trouble a{
+	color: #188fff;
+	text-decoration: none;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+}
+
+
+.form-issues-box{
+	margin-top: 15px;
+	background: #fff6d7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+}
+
+.form-issue-item1{
+	margin-top: 15px;
+	font-size: 13px;
+	font-weight: 700;
+	display: flex;
+	flex-direction: row;
+	width: 155px;
+}
+
+.form-issue-item2{
+	width: 155px;
 	
+	font-size: 13px;
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 20px;
+}
+
+.form-issue-item2 a{
+	text-decoration: none;
+	color: #188fff;
+}
+
+
+.form-issue-item3{
+	width: 155px;
+	
+	font-size: 13px;
+	text-align: center;
+
+	margin-bottom: 20px;
+}
+
+.form-issue-item3 a{
+	text-decoration: none;
+	color: #188fff;
+}
+
+.form-no-account{
+	margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.form-no-account div{
+	font-size: 17px;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+}
+
+.form-no-account a{
+	font-size: 17px;
+	text-decoration: none;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+	color: #188fff;
 }
