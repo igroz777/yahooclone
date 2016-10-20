@@ -1,10 +1,251 @@
 body{
 	padding: 0px;
+	margin: 0px;
+	font-family: 
 }
 
 .page-wrapper{
 	display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
-	height: 100vh;
+	
+
+}
+
+.top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 25px;
+}
+
+.top-logo{
+	background-image:  url(../assets/logo.png) !important;
+  height: 32px;
+  width: 125px;
+  margin-left: 16px;
+  margin-top: 14px;
+}
+
+.middle{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
+
+.middle-wrapper{
+	display: flex;
+	flex-direction: row;
+	width: 1050px;
+}
+
+.middle-left{
+	margin-top: 75px;
+	display: flex;
+	flex-direction: column;
+
+	width: 0px;
+	flex: 2;
+	margin-left: 55px;
+	margin-right: 55px;
+
+}
+
+.middle-left-header{
+	font-size: 20.5px;
+	font-weight: 600;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+	margin-bottom: 20px;
+}
+
+.middle-left-body{
+	font-size: 21.5px;
+
+
+	margin: 0px;
+	padding: 0px;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+}
+
+
+.middle-right{
+	margin-right: 20px;
+	width: 360px;
+	border-top: 4px solid #188fff;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+}
+
+
+
+.middle-right-wrapper{
+	margin: 30px;
+	height: 100%;
+}
+
+.form-logo{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.form-logo-inner{
+	background-image:  url(../assets/logo.png) !important;
+  height: 30px;
+  width: 125px;
+}
+
+.form-signin-text{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.form-signin-text-inner{
+	margin-top: 22px;
+	margin-bottom: 40px;
+	font-size: 18px;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+}
+
+.form-email-field{
+	width: 100%;
+}
+
+.form-email-field input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #cfd2d5;
+	outline: none;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: 17px;
+}
+
+.form-email-field input:focus{
+	border-bottom: 2px solid #188fff;
+	transition: all 0.5s linear;
+}
+
+.form-next-button{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.form-next-button button{
+	width: 100%;
+	color: white;
+	background-color: #188fff;
+	border: none;
+	height: 40px;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.form-next-button button:hover{
+	background: #4ca9ff;
+}
+
+
+
+.form-staysigned-trouble{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+.form-staysigned{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+
+}
+
+.form-staysigned input{
+	color: #cfd2d5;
+	margin-left: 0px; 
+}
+
+.form-staysigned div{
+	color: #188fff;
+}
+
+.form-trouble a{
+	color: #188fff;
+	text-decoration: none;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+}
+
+
+.form-issues-box{
+	margin-top: 15px;
+	background: #fff6d7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+}
+
+.form-issue-item1{
+	margin-top: 15px;
+	font-size: 13px;
+	font-weight: 700;
+	display: flex;
+	flex-direction: row;
+	width: 155px;
+}
+
+.form-issue-item2{
+	width: 155px;
+	
+	font-size: 13px;
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 20px;
+}
+
+.form-issue-item2 a{
+	text-decoration: none;
+	color: #188fff;
+}
+
+
+.form-issue-item3{
+	width: 155px;
+	
+	font-size: 13px;
+	text-align: center;
+
+	margin-bottom: 20px;
+}
+
+.form-issue-item3 a{
+	text-decoration: none;
+	color: #188fff;
+}
+
+.form-no-account{
+	margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.form-no-account div{
+	font-size: 17px;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+}
+
+.form-no-account a{
+	font-size: 17px;
+	text-decoration: none;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+	color: #188fff;
 }
